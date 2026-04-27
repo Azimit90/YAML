@@ -1,0 +1,8 @@
+name: RU Direct
+desc: Send Russian domains and Russian IP addresses directly
+
+rules:
+  - DOMAIN-SUFFIX,ru,DIRECT
+  - DOMAIN-SUFFIX,su,DIRECT
+  - DOMAIN-SUFFIX,xn--p1ai,DIRECT
+  - GEOIP,RU,DIRECT
